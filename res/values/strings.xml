@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Login View -->
+    <string name="app_name">Brandwatch</string>
+    <string name="loginLabel">Email</string>
+    <string name="passwordLabel">Password</string>
+    <string name="btn_login">Login</string>
+    
+    <!-- Landing View -->
+    <string name="screen_landing">Brandwatch</string>
+    
+    <!-- Projects View -->
+    <string name="screen_projects">Projects</string>
+    
+    <!-- Alerts View -->
+    <string name="screen_alerts">Alerts</string>
+    
+    <!-- Queries View -->
+    <string name="screen_queries">Queries</string>
+    
+    <!-- Overview View -->
+    <string name="screen_dashboard">Dashboard</string>
+    
+    <!-- Sentiment View -->
+    <string name="screen_sentiment">Sentiment</string>
+    
+    <!-- History View -->
+    <string name="screen_history">History</string>
+    
+    <!-- Pagetype View -->
+    <string name="screen_pagetype">Page Types</string>
+    
+    <!-- Topsites View -->
+    <string name="screen_topsites">Top Sites</string>
+    
+    <!-- Toptweeters View -->
+    <string name="screen_toptweeters">Top Tweeters</string>
+    
+    <!-- Mentions View -->
+    <string name="screen_mentions">Mentions</string>
+    
+    <!-- Single Mention View -->
+    <string name="screen_singlemention">Single Mention</string>
+    
+    <!-- Searchable -->
+    <string name="app_label">Brandwatch</string>
+    <string name="search_hint">Search Projects</string>
+    <string name="screen_calendar">Calendar</string>
+    <string name="startDateString">Start Date</string>
+    <string name="endDateString">End Date</string>
+    <string name="todayButton">Today</string>
+    <string name="sevenDaysButton">7 Days</string>
+    <string name="fourteenDaysButton">14 Days</string>
+    <string name="oneMonthButton">1 Month</string>
+    <string name="twoMonthsButton">2 Months</string>
+    <string name="calendarApplyButtonText">Apply</string>
+    <string name="calendarCancelButtonText">Cancel</string>
+    
+</resources>

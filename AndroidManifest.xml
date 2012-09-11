@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.brandwatchmobile"
+      android:versionCode="1"
+      android:versionName="1.0">
+      
+    <uses-sdk android:minSdkVersion="10"
+    		  android:targetSdkVersion="11" />
+    		  
+    <supports-screens android:resizeable="true"
+                  android:smallScreens="false"
+                  android:normalScreens="true"
+                  android:largeScreens="false"
+                  android:anyDensity="true"/>
+                  		  
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	
+    <application android:icon="@drawable/icon" 
+    			 android:label="@string/app_name"
+    			 android:theme="@android:style/Theme.Light">
+  		
+  		<activity android:name=".activity.Login"
+                  android:label="@string/app_name"
+                  >
+                  
+                  <intent-filter>
+               		 <action android:name="android.intent.action.MAIN" />
+               		 <category android:name="android.intent.category.LAUNCHER" />
+           		 </intent-filter>
+           		 
+        </activity>
+        
+        
+        <activity android:name=".activity.Landing"
+                  android:label="@string/screen_landing">
+        </activity>
+        
+        <activity android:name=".activity.Projects"
+                  android:label="@string/screen_projects">
+        </activity>
+        
+        <activity android:name=".activity.Alerts"
+                  android:label="@string/screen_alerts">
+        </activity>
+        
+        <activity android:name=".activity.AlertsMentions"
+                  android:label="@string/screen_alerts">
+        </activity>
+        
+        <activity android:name=".activity.Queries"
+                  android:label="@string/screen_queries">
+        </activity>
+        
+        <activity android:name=".activity.Overview"
+                  android:label="@string/screen_dashboard">
+        </activity>
+        
+        <activity android:name=".activity.SummaryView"
+                  android:label="@string/screen_sentiment">
+        </activity>
+        
+        <activity android:name=".activity.CalendarActivity"
+                  android:label="@string/screen_calendar">
+        </activity>
+        
+       <activity android:name=".activity.SingleMention"
+                  android:label="@string/screen_calendar">
+        </activity>
+    	
+    </application>
+</manifest>

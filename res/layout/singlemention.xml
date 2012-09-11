@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical" 
+ android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:layout_weight="1">
+  
+<LinearLayout
+	android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:layout_weight="1">
+      
+  <TextView 
+  android:id="@+id/date"
+  android:background="#E5E5E5"
+  android:textSize="14sp" 
+  android:textStyle="bold" 
+  android:textColor="#1d409f"
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content"/>
+ 
+ <TextView 
+  android:id="@+id/title" 
+  android:background="#E5E5E5"
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content"/>
+ 
+ <WebView 
+  android:id="@+id/snippet" 
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content"/>
+  
+</LinearLayout>  
+  
+  <LinearLayout
+		android:layout_below="@+id/snippet"
+		android:id="@+id/interactionbar" 
+		android:orientation="horizontal"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="35dp"
+	    android:gravity="center"
+	    android:background="#A3A3A3">
+	    
+	<ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginRight="9dp"
+        android:id="@+id/engagementbutton" 
+        android:background="@drawable/engagement_selector">
+    </ImageButton>    
+        
+     <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/workflowbutton"
+        android:background="@drawable/workflow_selector">
+    </ImageButton>    
+</LinearLayout>
+
+</LinearLayout>
